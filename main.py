@@ -11,6 +11,9 @@ import csv
 # --------------- Class Declaration ----------------------- 
 # Class for Player
 class Player:
+    # List Declarations
+    player_prize_money = []
+    still_playing = True # Used to check if the player is still in the game
     
     # Constructor for the Player Class . Sets basic information.
     def __init__(self, player_name, player_surname, player_age, player_occupation, player_location, player_gender):
@@ -25,25 +28,48 @@ class Player:
     def __repr__(self):
         return "Playing tonight is {} {} from {}. The contestant is a {} year old {} who is a {}.".format(self.name, self.surname, self.player_location, self.age, self.gender, self.occupation)
 
+
+
+# Class for Game
+class Game:
+   
+    round_number = 0 # Used to check on what round the game is 
+    QA_pair = {}
+
+    def setQuestions(self):
+        with open("Q_n_A.txt") as file:
+            
+            for record in file:
+                temp_ls = record.split('#')
+                question = temp_ls[0]
+                options = temp_ls[1].split(":")
+                answer = temp_ls[2]
+                self.QA_pair[question] = options
+            
+
+     
+
+
 # --------------- Variable and Function Declaration ----------------------- 
     
-round_number = 0 # Used to check on what round the game is 
-still_playing = True # Used to check if the player is still in the game
+
 
 # --------------- Main Program ----------------------- 
 
 # Welcome Message
-print("Welcome to Who wants to be a Millionare - Computer Science Edition")
+print("Welcome to Who wants to be a Millionare - Computer Science Edition \n\n Please enter your detials below: \n\n")
 
 # Get User Input
-name = input("Please Enter your name: ")
-surname = input("Please Enter your surname: ")
-occupation = input("Please Enter your occupation: ")
-location = input("Please Enter your location: ")
-gender = input("Please Enter your gender: ")
-age = input("Please Enter your age: ")
+name = input("Please enter your name: ")
+surname = input("Please enter your surname: ")
+occupation = input("Please enter your occupation: ")
+location = input("Please enter your location: ")
+gender = input("Please enter your gender: ")
+age = input("Please enter your age: ")
 
 # Init First object (Player)
 
 player = Player(name,surname,age,occupation,location,gender)
 print(player)
+game = Game()
+game.setQuestions()
