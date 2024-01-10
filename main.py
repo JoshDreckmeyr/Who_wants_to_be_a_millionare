@@ -35,6 +35,7 @@ class Game:
    
     round_number = 0 # Used to check on what round the game is 
     QA_pair = {}
+    correct_answer = []
 
     def setQuestions(self):
         with open("Q_n_A.txt") as file:
@@ -43,8 +44,9 @@ class Game:
                 temp_ls = record.split('#')
                 question = temp_ls[0]
                 options = temp_ls[1].split(":")
-                answer = temp_ls[2]
+                self.correct_answer.append(temp_ls[2])
                 self.QA_pair[question] = options
+            
             
 
      
@@ -52,7 +54,7 @@ class Game:
 
 # --------------- Variable and Function Declaration ----------------------- 
     
-
+    
 
 # --------------- Main Program ----------------------- 
 
