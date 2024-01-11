@@ -1,5 +1,40 @@
-What does HTML stand for?#Hypertext Markup Language:Hyper Transfer Markup Language:Hypertext Markup Language:High-Level Text Markup Language#2
+What does HTML stand for?#Hypertext Markup Language:Hyper Transfer Markup Language:Hyper Transport Markup Language:High-Level Text Markup Language#0
 In programming, what does the acronym "SQL" stand for?#Structured Question Language:Standard Query Language:System Query Language:Sequential Query Language#1
 Which programming language was developed by James Gosling at Sun Microsystems in the 1990s?#Python:Java:C++:Ruby#1
 What does CSS stand for in web development?#Cascading Style Sheets:Creative Style Sheets:Computer Style Sheets:Colorful Style Sheets#0
 In computer science, what does the acronym "API" stand for?#Application Programming Interface:Advanced Program Integration:Automated Protocol Interface:Abstract Program Interface#0
+Which data structure follows the Last In, First Out (LIFO) principle?#Queue:Stack:Linked List:Tree#1
+What is the primary purpose of the "if" statement in programming?#Looping:Decision making:Exception handling:Function definition#2
+What is the binary equivalent of the decimal number 25?#10100:11001:11111:10011#1
+Which sorting algorithm has an average time complexity of O(n log n)?#Bubble Sort:Insertion Sort:Merge Sort:Selection Sort#2
+What does the acronym "URL" stand for?#Uniform Resource Locator:Universal Reference Link:Unified Resource Locator:User Retrieval Link#0
+Which of the following is not a programming paradigm?#Procedural:Declarative:Descriptive:Object-Oriented#2
+In networking, what does the acronym "LAN" stand for?#Local Area Network:Large Area Network:Longitudinal Access Node:Logical Array Node#0
+What is the purpose of the "git" version control system?#Document collaboration:Code versioning and tracking:Database management:File compression#1
+Which of the following is a dynamically-typed programming language?#Java:C Sharp:Python:C++#2
+What does the acronym "IoT" stand for in the context of computer science?#Internet of Things:Input of Technology:Integrated Output Test:Internal Operating Task#0
+Which encryption algorithm is widely used for securing internet communications?#RSA:DES:AES:MD5#2
+What is the primary function of a compiler in programming?#Code execution:Code interpretation:Code optimization:Code debugging#2
+What is the purpose of the "break" statement in a loop?#Exit the loop:Skip the next iteration:Pause the loop temporarily:Restart the loop from the beginning#0
+In database terminology, what does "ACID" stand for?#Atomicity, Consistency, Isolation, Durability:Association, Configuration, Integration, Deployment:Analysis, Coding, Implementation, Debugging:Access, Control, Identification, Deletion#0
+Which programming language is often used for developing mobile applications?#Swift:C Sharp:Ruby:Pascal#0
+What is the purpose of the "try...catch" block in programming?#Loop control:Error handling:Code repetition:Variable declaration#1
+What does the term "DNS" stand for in networking?#Dynamic Network Server:Domain Name System:Digital Naming Service:Data Node Synchronization#1
+Which data structure is used to represent a hierarchical structure in computing?#Stack:Queue:Tree:Linked List#2
+What is the role of the "Router" in a computer network?#Connects devices within the same network:Connects different networks:Manages memory resources:Controls the flow of electricity#1
+Which of the following is a key feature of object-oriented programming?#Inheritance:Goto statements:Global variables:Spaghetti code#0
+What does the acronym "HTTPS" stand for in web addresses?#HyperText Transfer Protocol Secure:HyperText Transfer Protocol Standard:HyperText Transfer Processing System:HyperText Transmission Protocol Server#0
+Which programming language is commonly used for developing web server applications?#Java:PHP:C Sharp:Swift#1
+What is the purpose of the "grep" command in Unix/Linux?#Text editing:File compression:Text searching and manipulation:Network configuration#2
+What is the function of the "finally" block in a try-catch-finally statement?#Execute code only if there is an error:Execute code regardless of whether there is an error or not:Execute code before the try block:Execute code after the catch block#1
+In computer graphics, what does "RGB" stand for?#Red, Green, Blue:Random Graphics Buffer:Realistic Graphics Bitmapping:Relative Graphics Brightness#0
+What is the purpose of the "malloc" function in C programming?#Memory allocation:Mathematical calculation:File manipulation:Error handling#0
+Which sorting algorithm has a worst-case time complexity of O(n^2)?#Merge Sort:Quick Sort:Insertion Sort:Heap Sort#2
+What is the primary purpose of the "else" statement in programming?#Exception handling:Looping:Code execution:Alternative code execution#3
+Which of the following is an example of a high-level programming language?#Assembly language:Machine language:C:Binary code#2
+What is the purpose of the "substring" function in string manipulation?#Concatenate strings:Extract a portion of a string:Compare two strings:Convert a string to lowercase#1
+In computer networks, what does "IP" stand for?#Internet Protocol:Information Processing:Interface Port:Internal Protocol#0
+Which of the following is a benefit of using version control systems like Git?#Code obfuscation:Code collaboration:Code duplication:Code compression#1
+What is the primary purpose of the "break" statement in a switch statement?#Exit the switch statement:Skip the next case:Restart the switch statement:Exit the entire program#0
+Which programming paradigm emphasizes dividing the program into small, reusable units called objects?#Procedural programming:Declarative programming:Object-oriented programming:Functional programming#2
+What does the term "URL" stand for in the context of web browsing?#Universal Resource Locator:Unified Reference Link:User Retrieval Link:Uniform Reference Locator#0
