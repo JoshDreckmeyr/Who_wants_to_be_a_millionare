@@ -135,4 +135,9 @@ while game.getGameState():
    game.game_logic(temp)
    if(game.round_number == 15):
        break
+   
+
+## To Do:
+# - Take Prize
+# - Addition of Comments and Code Explination
 
